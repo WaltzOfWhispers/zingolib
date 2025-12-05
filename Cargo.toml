@@ -7,6 +7,7 @@ members = [
     "libtonode-tests",
     "darkside-tests",
     "zingo-cli",
+    "zingo-http",
     "zingolib",
     "zingo-memo",
     "pepper-sync",

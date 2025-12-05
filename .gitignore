@@ -3,6 +3,7 @@
 *.json.txt
 .DS_Store
 .helix
+.env
 /procgov
 /testdata
 cobertura.xml

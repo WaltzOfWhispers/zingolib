@@ -1,0 +1,30 @@
+[package]
+name = "zingo-http"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zingolib = { workspace = true }
+axum = "0.7.4"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tower-http = { version = "0.5.1", features = ["cors"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+anyhow = "1.0"
+log = { workspace = true }
+http = { workspace = true }
+bip0039 = { workspace = true }
+pepper-sync = { workspace = true }
+zip32 = { workspace = true }
+zcash_primitives = { workspace = true }
+zcash_address = { workspace = true }
+zcash_protocol = { workspace = true }
+futures = { workspace = true }
+dotenv = "0.15"
+hex = { workspace = true }
+base64 = "0.22"
+
+[dev-dependencies]
+zingolib = { workspace = true, features = ["testutils"] }
